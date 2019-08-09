@@ -1,0 +1,14 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /https://tracbras.com.br/revestimento-poliuretano/ureply
+Allow: /https://tracbras.com.br/correias-transportadoras/uniply
+Allow: /https://tracbras.com.br/acessoria-tecnica/serply
+Allow: /https://tracbras.com.br/correias-transportadoras/velta
+Allow: /https://tracbras.com.br/correias-transportadoras/dauer
+Allow: /https://tracbras.com.br/blog
+Allow: /https://tracbras.com.br/form
+
+
+Sitemap: https://tracbras.com.br/sitemap.xml
