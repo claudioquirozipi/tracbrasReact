@@ -10,6 +10,7 @@ import IndexText from './components/leftRight/indexText';
 import Li from './components/leftRight/li';
 import Cards from './components/cards';
 import Seo from './seo';
+import Slyder from './blog/components/slyder';
 
 //Styled-Components
 import {H1Title} from './components/leftRight/styled';
@@ -63,37 +64,7 @@ function Index() {
                 </IndexText>
             </LeftRight>
 
-            <LeftRight src={IndexImg2} alt={"uniply-correias-transportadoras-tracbras"}>
-                <IndexText color="#185997" grey>
-                    <img src={logo2} alt="uniply"/>
-                    <h2>Correias transportadoras e elevadoras.</h2>
-                    <ul>
-                        <Li>Mínimo esticamento.</Li>
-                        <Li>Único tecido sólido.</Li>
-                        <Li>Máxima âncoragem.</Li>
-                        <Li>Flexibilidade e estabilidade dimensional.</Li>
-                        <Li>Fácil de limpar.</Li>
-                    </ul>
-                    <div>
-                        <Link
-                            to="./correias-transportadoras/uniply"
-                        >Ampliar</Link>
-                    </div>
-                </IndexText>
-            </LeftRight>
 
-            <LeftRight src={IndexImg4} reverse alt={"serply-serviço-técnico-conselho-tracbras"}>
-                 <IndexText color="#B4632C" grey>
-                     <img src={logo4} alt="serply"/>
-                    <h2>Revenda de outros produtos.</h2>
-                    <p>El procedimiento que utilizamos se adecua a la tecnología de fabricación de nuestras correas. El mismo es realizado con prensas de última generación con controles precisos de temperatura y presión.</p>
-                    <div>
-                        <Link
-                            to="./acessoria-tecnica/serply"
-                        >Ampliar</Link>
-                    </div>
-                </IndexText>
-            </LeftRight>
 
             <LeftRight src={IndexImg5} alt={"velta-cinto-borracha-transportador-tracbras"}>
                 <IndexText color="#293141" grey>
@@ -147,7 +118,7 @@ function Index() {
                     </IndexTextBlue>
                 </LeftRight>
             </BgContainer>
-
+            <Slyder />
             <Cards/>
             <Footer />
         </>

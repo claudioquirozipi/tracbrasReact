@@ -65,7 +65,7 @@ function handleSubmit(e,name, email, web, phone, description) {
     .then(function(docRef) {
         console.log("Document written with ID: ", docRef.id);
         document.getElementById("formFooter").reset();
-        alert("inscrito corretamente");
+        window.location.href="./ok"
     })
     .catch(function(error) {
         console.error("Error adding document: ", error);
@@ -88,6 +88,10 @@ function Form() {
     return(
         <FormSC id="formFooter" onSubmit={(e) =>handleSubmit(e, name, email, web, phone, description)}>
             <h4>Entre em contato conosco</h4>
+            <p>
+                Para manter-se a par de todas as novidades dos nossos serviços, 
+                basta preencher este pequeno registro.
+            </p>
             <Input placeholder="Nome" src={imgName} type={"Text"} required ={true} onChange={handleSetName}/>
             <Input placeholder="E-mail" src={imgEmail} type={"email"} required ={true} onChange={handleSetEmail}/>
             <Input placeholder="Web" src={imgWeb} type={"url"} required ={true} onChange={handleSetWeb}/>

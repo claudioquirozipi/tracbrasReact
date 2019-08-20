@@ -20,9 +20,7 @@ function Footer() {
         <FooterContainer>
             <ContainerFormText>
                 <Information>
-                    <ContainerButton>
-                        <img src={IconGroup} alt="icon"/>
-                    </ContainerButton>
+                    <h4>Contáctanos</h4>
                     <ul>
                         <li>Tel. +55 11 29857935 / +55 11 23050925</li>
                         <li>Whatsapp: (+55) 11 9 8153 0003</li>
@@ -30,12 +28,6 @@ function Footer() {
                         <li>Vendas: vendas_sp@tracbras.com.br</li>
                         <li>Rua Bentópolis. 146. Parque novo mundo<br/>São Paolo/SP 02181-080</li>
                     </ul>
-                    <ContainerButton>
-                        <Link to="/blog">blog</Link>
-                    </ContainerButton>
-                    <ContainerButton simple>
-                        <Link to="/form" >Ver evento</Link>
-                    </ContainerButton>
                 </Information>
                 <Form />
             </ContainerFormText>
