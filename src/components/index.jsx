@@ -43,8 +43,6 @@ function Index() {
             />
             
             <Header type="Index"/>
-            <H1Title>Tracsa fabricação de revestimentos de poliuretano para cintas de içamento</H1Title>
-
             <LeftRight src={IndexImg1} reverse alt={"ureply-tracbras-revestimiento-poliuretano"} >
                 <IndexText color="#357C39" grey>
                     <img src={logo1} alt="ureply"/>

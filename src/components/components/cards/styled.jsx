@@ -1,6 +1,17 @@
 import styled from 'styled-components';
 import {MQ} from '../../../config/media';
 
+export const H2Title = styled.h2`
+    margin: 0 0 100px;
+    text-align: center;
+    color: #585858;
+    font-weight: 700;
+    font-size: 25px;
+    @media ${MQ.md} {
+        font-size: 45px;
+    }
+`;
+
 export const ContainerCards = styled.div`
     display: flex;
     flex-direction: column;
