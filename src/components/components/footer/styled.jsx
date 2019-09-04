@@ -61,6 +61,13 @@ export const Information = styled.div`
             @media ${MQ.md} {
             font-size: 25px;
             }
+            a {
+                color: white;
+                text-decoration: none;
+                &:hover {
+                    font-weight:900;
+                }
+            }
             svg {
                 height: 30px;
                 /* position: absolute;

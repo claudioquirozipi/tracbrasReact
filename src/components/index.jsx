@@ -62,7 +62,22 @@ function Index() {
                 </IndexText>
             </LeftRight>
 
-
+            <LeftRight src={IndexImg4} alt={"velta-cinto-borracha-transportador-tracbras"}>
+                <IndexText color="#B4632C" grey>
+                    <img src={logo4} alt="velta"/>
+                    <h2>Revenda de outros produtos.</h2>
+                    <p>
+                        O procedimento que utilizamos e o adequado a nossa tecnologia de 
+                        fabricação das correias. O mesmo e realizado com prensas de ultima 
+                        geração, controles precisos de temperatura e precisão.
+                    </p>
+                    <div>
+                        <Link
+                            to="./acessoria-tecnica/serply"
+                        >Ampliar</Link>
+                    </div>
+                </IndexText>
+            </LeftRight>
 
             <LeftRight src={IndexImg5} alt={"velta-cinto-borracha-transportador-tracbras"}>
                 <IndexText color="#293141" grey>

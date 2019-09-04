@@ -34,12 +34,18 @@ export const CardSC = styled.div`
     align-items: center;
     box-shadow: 3px 3px 20px 3px rgba(119, 119, 119, 0.3);
     width: 270px;
+    @media ${MQ.md} {
+        height: 430px;
+        position: relative;
+        padding-bottom: 50px;
+    }
     img {
-        width: 100%;
+        width: auto;
+        height: 50px;
     }
     p {
         font-size: 15px;
-        margin-top: 40px;   
+        margin: 40px 0 ;   
         line-height: 40px;
         font-weight: 600;
         text-align: center;
@@ -53,10 +59,17 @@ export const CardSC = styled.div`
         line-height: 40px;
         font-weight: 600;
         text-align: center;
-        span {
             font-weight: 900;
-            font-size: 16px;
+        span {
+            font-weight: 400;
+            font-size: 14px;
+        }
+        @media ${MQ.md} {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
         }
     }
 `;
-

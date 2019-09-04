@@ -53,8 +53,8 @@ function Footer() {
                 <Information>
                     <h4>Contate-nos</h4>
                     <ul>
-                        <li><ImgPhone />+55 11 29857935 / +55 11 23050925</li>
-                        <li><ImgWs /> (+55) 11 9 8153 0003</li>
+                        <li><ImgPhone />(+55) 11 29857935</li>
+                        <li><ImgWs /><a href="https://api.whatsapp.com/send?phone=5511981530003&text=Hola">(+55) 11 9 8153 0003</a></li>
                         <li><ImgEmail/> vendas_sp@tracbras.com.br</li>
                         <li><span>Rua Bentópolis 146. Parque novo <br/>mundo São Paulo/SP 02181-080</span></li>
                     </ul>

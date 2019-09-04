@@ -39,8 +39,9 @@ class App extends React.Component {
             <Route path="/ok" component={Ok} />
             <Route path="/correias-transportadoras/dauer" component={Dauer} />
             <Route path="/revestimento-poliuretano/ureply" component={Ureply} />
+            <Route path="/acessoria-tecnica/serply" component={Serply} />
             <Route path="/correias-transportadoras/velta" component={Velta} />
-            <Route path="/form" component={Form} />
+            {/* <Route path="/form" component={Form} /> */}
           </Switch>
         </BrowserRouter>
       </>

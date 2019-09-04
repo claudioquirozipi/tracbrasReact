@@ -15,11 +15,11 @@ import {
 } from './styled';
 import {H2Title} from '../../../components/cards/styled';
 //Asest
-import d1 from '../../../../img/blog/dauer.jpeg';
+import d1 from '../../../../img/blog/10dauer.jpg';
 import d2 from './img/img2.jpg';
 import d3 from './img/img3.jpg';
-import d4 from './img/img4.jpg';
-import d5 from './img/img5.jpg';
+import d4 from '../../../../img/blog/4palestras.jpg';
+import d5 from '../../../../img/blog/6caramed.jpg';
 
 
 const valorInicial = [
@@ -62,11 +62,11 @@ function Slyder() {
                         <h2>{valor.titulo}</h2>
                         <p>{valor.parrafo}</p>
                     </div>
-                    <ContainerSlyderButton>
+                    {/* <ContainerSlyderButton>
                         <ButtonSC onClick={Button1} colorSC={valor.button1}/>
                         <ButtonSC onClick={Button2} colorSC={valor.button2}/>
                         <ButtonSC onClick={Button3} colorSC={valor.button3}/>
-                    </ContainerSlyderButton>
+                    </ContainerSlyderButton> */}
                 </Container1>
                 <Container2>
                     <SlyderSC left={valor.positionX}>
@@ -77,7 +77,7 @@ function Slyder() {
                     </SlyderSC>
                 </Container2>
                 <Container3>
-                    <img src={d1} alt=""/>
+                    <img src={d4} alt=""/>
                     <SubTitle>Palestras</SubTitle>
                 </Container3>
                 <Container4>
