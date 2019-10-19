@@ -17,7 +17,8 @@ import logo from '../../img/header/logoVelta.png';
 import img1 from '../../img/velta/benefícios-velta-cinta-borracha-transportadora-tracbras.png';
 import img2 from '../../img/velta/folha-dados-técnico-velto-cinto-borracha-transportador-tracbras.png';
 import img3 from '../../img/velta/aplicações-velta-cinta-borracha-transportadora-tracbras.png';
-
+import img4 from '../../img/velta/velta01.svg';
+import img5 from '../../img/velta/velta02.svg';
 function Velta() {
     return(
         <>
@@ -43,13 +44,17 @@ function Velta() {
                     </ul>
                 </IndexText>
             </LeftRight>  
-            <LeftRight src={img2} center alt="folha-dados-técnico-velto-cinto-borracha-transportador-tracbras">
+            <LeftRight src={img4} center alt="folha-dados-técnico-velto-cinto-borracha-transportador-tracbras">
                 <IndexText color="#293141">
                     <h2>ESPECIFICAÇÕES TÉCNICAS</h2>
                     <p>
                         Um resumo detalhado das características técnicas do produto e seus modelos.
                         Para obter mais informações, peça as Fichas Técnicas aos nossos Consultores.
                     </p>
+                </IndexText>
+            </LeftRight>  
+            <LeftRight src={img5} center alt="folha-dados-técnico-velto-cinto-borracha-transportador-tracbras">
+                <IndexText color="#293141">
                 </IndexText>
             </LeftRight>  
             <LeftRight src={img3} alt="aplicações-velta-cinta-borracha-transportadora-tracbras">
